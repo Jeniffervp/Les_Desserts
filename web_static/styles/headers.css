@@ -1,0 +1,134 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+/* The black bar css 8 */
+.top-social-media {
+	height: 35px;
+	background-color: black;
+	display: flex;
+	width: 100%;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	display: flex; 
+}
+
+.container div.send-logos, .top-social-media div.whatsapp {
+	color: white;
+	font-size: 14px;
+	width: 100%;
+	line-height: 35px;
+	margin: 0px;
+}
+
+.top-social-media {
+	text-align: left;
+}
+.whatsapp {
+	text-align: right;
+}
+
+/* The sing bar */
+.top-links-container {
+	width: 100%;
+}
+
+.container-count {
+	width: 1000px;
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px auto;
+}
+
+.container-count button {
+	font-size: 16px;
+	color: black;
+	width: 80px;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.container-count button:hover {
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+}
+
+/* Search bar */
+.header-search {
+	width: 100%;
+	margin: 0px;
+	margin-top: 10px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-color: #E7DDDB;
+	padding: 20px 0;
+}
+.search-bar {
+	display: flex;
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+.search-bar .write-search {
+	width: 80%;
+	background-color: #F7F4F4;
+	padding: 16px 10px;
+	border-radius: 5px;
+	color: #919DA2;
+}
+
+.header-search button {
+	width: 20%;
+	background-color: transparent;
+	border: transparent;
+	margin: 2px 0;
+	margin-right: 1px;
+	font-size: 20px;
+}
+
+.header-search button:hover {
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+}
+
+/* Put the help var */
+.header-nav {
+	width: 100%;
+	border-bottom: 1px solid #E7DDDB;
+}
+
+.container-nav {
+	width: 1000px;
+	display: flex;
+	margin: 0px auto;
+	padding: 5px;
+}
+
+.container-nav .shop {
+	margin-right: auto;
+}
+
+.container-nav ul {
+	display: flex;
+	margin: 0px auto;
+	padding: 0px;
+}
+.container-nav ul li {
+	list-style: none;
+	margin: 0px;
+	padding: 10px 20px;
+}
+
+.container-nav ul li:hover {
+	opacity: 50%;
+}
